@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="dot"></div>
+    <div class="central-container">
+      <div class="right x center"></div>
+      <div class="left x center"></div>
+      <div class="circle center"></div>
+      <div class="horizontal x center"></div>
+    </div>
+    <div class="dot"></div>
+  </div>
+  <style>
+    body {
+      margin: 0;
+      background: #F59426;
+    }
+    .container {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+    }
+    .dot {
+      height: 30px;
+      width: 30px;
+      background: #FFF;
+      border-radius: 50%;
+    }
+    .central-container {
+      position: relative;
+      height: 150px;
+      width: 150px;
+    }
+    .center {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    .x {
+      background: #FFF;
+      height: 150px;
+      width: 30px;
+    }
+    .left {
+      rotate: 30deg;
+    }
+    .right {
+      rotate: 330deg;
+    }
+    .circle {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      background: #F59426;
+    }
+    .horizontal {
+      rotate: 90deg;
+    }
+  </style>
+  
+  <!-- OBJECTIVE -->
+  <!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+  
+  <!-- SCORING -->
+  <!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+  
+  <!-- IMPORTANT: remove the comments before submitting -->
