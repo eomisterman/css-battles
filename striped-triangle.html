@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="triangle"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+  <div class="stripe"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #40234B;
+    height: 100vh;
+    display: flex;
+  }
+  .container {
+    width: 340px;
+    height: 200px;
+    margin: auto;
+    background: #40234B;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    rotate: 300deg;
+    position: relative;
+    right: 40px;
+  }
+  .triangle {
+    position: absolute;
+    top: -15px;
+    left: 105px;
+    border-bottom: 200px solid #A94EA4;
+    border-left: 115px solid transparent;
+    border-right: 115px solid transparent;
+  }
+  .stripe {
+    background: #40234B;
+    height: 10px;
+    z-index: 1;
+  }
+</style>
