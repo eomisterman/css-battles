@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="line-y"></div>
+  <div class="belt">
+    <div class="line-x"></div>
+    <div class="diamond"></div>
+    <div class="line-x"></div>
+  </div>
+  <div class="line-y"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #504371;
+  }
+  .container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .line-y {
+    height: 80px;
+    width: 30px;
+    background: #A6A0BE;
+    align-self: center;
+  }
+  .belt {
+    display: flex;
+  }
+  .line-x {
+    background: #A6A0BE;
+    height: 30px;
+    width: 130px;
+    align-self: center;
+  }
+  .diamond {
+    height: 90px;
+    width: 90px;
+    border: 30px solid #A6A0BE;
+    rotate: 45deg;
+  }
+</style>
