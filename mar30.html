@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="top row">
+    <div class="block"></div>
+  </div>
+  <div class="middle-row">
+    <div class="bars-container">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="middle-block"></div>
+    <div class="bars-container right">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="block"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    background: #DBBEDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    height: 30%;
+    width: 62.5%;
+    display: flex;
+  }
+  .top {
+    justify-content: flex-end;
+  }
+  .block {
+    height: 100%;
+    width: 32%;
+    background: #81008F;
+  }
+  .middle-row {
+    display: flex;
+    height: 40%;
+    width: 62.5%;
+  }
+  .bars-container {
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 17%;
+  }
+  .right {
+    justify-content: flex-end;
+  }
+  .bar {
+    height: 16.5%;
+    width: 100%;
+    background: #81008F;
+  }
+  .middle-block {
+    height: 100%;
+    width: 36%;
+    background: #81008F;
+  }
+</style>
