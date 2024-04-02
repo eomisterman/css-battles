@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="big up"></div>
+  <div class="center">
+    <div class="sm left"></div>
+    <div class="rect"></div>
+    <div class="sm right"></div>
+  </div>
+  <div class="big down"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background: #0A6190;
+  }
+  .container {
+    width: 290px;
+    height: 200px;
+    background: #0A6190;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .big {
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    
+  }
+  .center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .up {
+    border-bottom: 81px solid #EFF8FE;
+  }
+  .down {
+    border-top: 81px solid #EFF8FE;
+  }
+  .rect {
+    width: 251px;
+    height: 100%;
+    background: #EFF8FE;
+    margin: auto;
+  }
+  .sm {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent
+  }
+  .left {
+    border-right: 20px solid #EFF8FE;
+  }
+  .right {
+    border-left: 20px solid #EFF8FE;
+  }
+</style>
