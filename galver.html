@@ -1,0 +1,103 @@
+<div class="container">
+  <div class="crosshair top">
+    <div class="circle"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="crosshair right">
+    <div class="circle"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="crosshair bottom">
+    <div class="circle"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="crosshair left">
+    <div class="circle"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="center sm"></div>
+  <div class="center md"></div>
+  <div class="center lg"></div>
+</div>
+<style>
+  .circle {
+    height: 30px;
+    width: 30px;
+    background: #8B0051;
+    border-radius: 50%;
+  }
+  .triangle {
+    border-top: 52px solid #8B0051;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: relative;
+    bottom: 15px;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background: #FCDDEB;
+  }
+  .container {
+    width: 230px;
+    height: 230px;
+    background: #FCDDEB;
+    margin: auto;
+    position: relative;
+  }
+  .crosshair {
+    position: absolute;
+  }
+  .top {
+    top: 0;
+    left: 100;
+  }
+  .right {
+    right: 100px;
+    rotate: 90deg;
+    top: 0;
+    bottom: 0;
+  }
+  .bottom {
+    bottom: 0;
+    rotate: 180deg;
+    left: 100px;
+  }
+  .left {
+    rotate: 270deg;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+  }
+  .center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .md {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 15px solid #8B0051;
+    background: #F180B6;
+    
+  }
+  .lg {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: transparent;
+    border: 15px solid #8B0051;
+  }
+  .sm {
+    background: #8B0051;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+</style>
