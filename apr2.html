@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="rect"></div>
+  <div class="middle">
+    <div class="horizontal"></div>
+    <div class="vertical"></div>
+    <div class="vertical center"></div>
+    <div class="vertical"></div>
+    <div class="horizontal"></div>
+  </div>
+  <div class="rect"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #90D3A6;
+    display: flex;
+    height: 100vh;
+  }
+  .container {
+    width: 400px;
+    height: 200px;
+    background: #90D3A6;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rect {
+    height: 32px;
+    width: 210px;
+    border-radius: 25px;
+    background: #194E29;
+  }
+  .middle {
+    height: 150px;
+    width: 100%;
+    display: flex;
+  }
+  .horizontal {
+    height: 30px;
+    width: 125px;
+    background: #194E29;
+    align-self: center;
+  }
+  .vertical {
+    height: 100%;
+    width: 30px;
+    background: #194E29;
+  }
+  .center {
+    margin: 0 30px;
+  }
+</style>
